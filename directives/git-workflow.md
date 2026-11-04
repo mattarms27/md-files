@@ -14,8 +14,9 @@ These rules apply to all Git work in this repository. A human exception applies 
 - Use a pull request as the default path into `main`. Do not merge a branch directly into `main` unless a human explicitly requests that workflow.
 - Merge pull requests into `main` with a merge commit. Use another merge method only when a human explicitly directs it or GitHub repository constraints require it.
 
-## Commit messages
+## Commits
 
+- Always make individual commits for each notable bit of work, or change.
 - Follow the repository's established commit message naming convention. Check meaningful recent commits; do not treat a generic bootstrap message such as `Initial commit` as a convention.
 - If no convention is established, start each subject with a capitalized, descriptive prefix and a colon, then describe the specific change with appropriate capitalization and enough detail to understand it. Examples:
   - `Add: Fade-in CSS animation to hero block`
